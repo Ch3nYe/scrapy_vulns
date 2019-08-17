@@ -1,6 +1,8 @@
 # scrapy_vulns
 > scrapy爬虫框架爬取某漏洞信息公开网漏洞列表  
-![](https://img.shields.io/badge/language-python-yellowgreen.svg?style=flat-square)
+
+![](https://img.shields.io/badge/language-python3.7-yellowgreen.svg?style=flat-square)
+![](https://img.shields.io/badge/framework-scrapy1.7-ffffff.svg?style=flat-square)
 
 ### 0x1 简介
 项目使用python3.7开发
