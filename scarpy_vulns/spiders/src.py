@@ -7,7 +7,7 @@ from ..items import ScarpyVulnsItem
 class SrcSpider(scrapy.Spider):
     name = 'src'
     allowed_domains = ['src.sjtu.edu.cn']
-    start_urls = ['http://src.sjtu.edu.cn/list/?page=833']
+    start_urls = ['http://src.sjtu.edu.cn/list/?page=1']
 
     def parse(self, response):
         # print(u"[*]检查随机user-agnet", response.request.headers)
