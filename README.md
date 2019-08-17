@@ -32,14 +32,14 @@ scarpy_vulns
 1. settings.py中数据库配置
 2. settings.py中CONCURRENT_REQUESTS和DOWNLOAD_DELAY（保持默认也可以）
 3. mysql数据库中建立一个名为scrapy_vulns数据库并在其中建立一个名为list的表，表中字段如下定义：
-> CREATE TABLE `list` (
-  `time` date NOT NULL,
-  `title` varchar(255) NOT NULL,
-  `rank` varchar(16) NOT NULL,
-  `author` varchar(127) NOT NULL,
-  `organization` varchar(255) NOT NULL,
-  `type` varchar(255) NOT NULL,
-  PRIMARY KEY (`time`,`title`,`author`,`rank`) USING BTREE
+> CREATE TABLE `list` (  
+  `time` date NOT NULL,  
+  `title` varchar(255) NOT NULL,  
+  `rank` varchar(16) NOT NULL,  
+  `author` varchar(127) NOT NULL,  
+  `organization` varchar(255) NOT NULL,  
+  `type` varchar(255) NOT NULL,  
+  PRIMARY KEY (`time`,`title`,`author`,`rank`) USING BTREE  
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;  
 	# 相信懂一点sql的都能看懂  
 
