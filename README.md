@@ -5,10 +5,10 @@
 ![](https://img.shields.io/badge/framework-scrapy1.7-brightgreen.svg?style=flat-square)
 
 ### 0x1 简介
-项目使用python3.7开发
-需要的库都列在reqirements.txt中
-爬虫使用随机user-agent，禁用了原有中间件，未使用ip代理，线程较低，防止被网站封锁ip。
-本项目意在学习温故scrapy爬虫框架，如有侵犯隐私、公共安全的隐患请联系本人，将立即删除。
+项目使用python3.7开发  
+需要的库都列在reqirements.txt中  
+爬虫使用随机user-agent，禁用了原有中间件，未使用ip代理，线程较低，防止被网站封锁ip。  
+本项目意在学习温故scrapy爬虫框架，如有侵犯隐私、公共安全的隐患请联系本人，将立即删除。  
 
 ### 0x2 如何配置 
 - 文件目录  
@@ -52,4 +52,9 @@ scarpy_vulns
 - 克隆项目进入项目目录，再进入一层scrapy_vulns目录，能看到start.py
 `python start.py`
 - 或者再进入spider目录使用以下命令
-`scrapy crawl src`
+`scrapy crawl src`  
+
+### 0x4 异常处理  
+- 如果出现提示 [-]数据库插入异常，可能已经爬取到重复数据，是否继续爬取？Y/n : 意味着如提示所说，你可以选择继续尝试向后爬取也可以选择停止爬虫。  
+- 如果出现其他异常请使用ctrl+c停止爬虫，查看日志当前爬取的页码，修改该src.py中的start_urls的页码数。然后重启爬虫就可以了。  
+- 如果上述异常无法清除请联系我，可以再本项目中写下issue，也可以直接给我邮箱留言。  
