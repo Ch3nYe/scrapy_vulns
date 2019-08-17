@@ -1,0 +1,2 @@
+# scrapy_vulns
+scrapy爬虫框架爬取某漏洞信息公开网漏洞列表
