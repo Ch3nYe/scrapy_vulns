@@ -29,11 +29,11 @@ LOG_LEVEL = "DEBUG"
 LOG_STDOUT = False # 标准输出记录到日志中
 
 # 数据库配置
-MYSQL_HOST = '47.103.25.191'
+MYSQL_HOST = '127.0.0.1'
 MYSQL_PORT = 3306
 MYSQL_DB = 'scrapy_vulns'
-MYSQL_USER = 'user0'
-MYSQL_PASSWD = 'nefu1234!!'
+MYSQL_USER = 'root'
+MYSQL_PASSWD = 'root'
 MYSQL_CHARSET = 'utf8'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # 配置Scrapy执行的最大并发请求(默认值：16)
