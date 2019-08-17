@@ -2,9 +2,8 @@
 > scrapy爬虫框架爬取某漏洞信息公开网漏洞列表  
 
 <p align = "center">
-
-<a title="Code Size" target="_blank" href="https://github.com/b3log/solo"><img src="https://img.shields.io/github/languages/code-size/b3log/solo.svg?style=flat-square&color=6699FF"></a>
-
+![](https://img.shields.io/badge/language-python-yellowgreen.svg?style=flat-square)
+	
 </p>  
 
 ### 0x1 简介
