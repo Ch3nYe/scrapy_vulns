@@ -10,21 +10,21 @@ scrapy爬虫框架爬取某漏洞信息公开网漏洞列表
 ### 0x2 如何配置 
 - 文件目录  
 
-scarpy_vulns
-│  scrapy.cfg
-│
-└─scarpy_vulns
-    │  items.py   # 定义持久化的实体
-    │  middlewares.py   # 中间件
-    │  pipelines.py    # 持久化管道
-    │  settings.py  # 配置文件
-    │  start.py     # 快捷启动方式：python ./start,py
-    │  __init__.py
-    │
-    ├─spiders
-        │   src.py   # 爬虫
-        │  __init__.py
-
+scarpy_vulns  
+│  scrapy.cfg  
+│  
+└─scarpy_vulns  
+    │  items.py   # 定义持久化的实体  
+    │  middlewares.py   # 中间件  
+    │  pipelines.py    # 持久化管道  
+    │  settings.py  # 配置文件  
+    │  start.py     # 快捷启动方式：python ./start,py  
+    │  __init__.py  
+    │  
+    ├─spiders  
+        │   src.py   # 爬虫  
+        │  __init__.py  
+  
 - 只需要做以下配置
 1. settings.py中数据库配置
 2. settings.py中CONCURRENT_REQUESTS和DOWNLOAD_DELAY（保持默认也可以）
