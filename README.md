@@ -44,6 +44,7 @@ scarpy_vulns
 	# 相信懂一点sql的都能看懂  
 
 注：如果另起库名和表名需要对应修改该settings.py和pipelines.py中的对应参数MYSQL_DB和self.cursor.execute中的list  
+  
 4. 如果你的系统python环境由于缺少库环境启动爬虫失败，或者不想扰乱本地环境，可以为项目搭建虚拟环境。**具体方法请参见：本人cyblog的部署文档/另行百度**
 
 ### 0x3 如何启动
