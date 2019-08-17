@@ -45,13 +45,13 @@ scarpy_vulns
 
 注：如果另起库名和表名需要对应修改该settings.py和pipelines.py中的对应参数MYSQL_DB和self.cursor.execute中的list  
   
-4. 如果你的系统python环境由于缺少库环境启动爬虫失败，或者不想扰乱本地环境，可以为项目搭建虚拟环境。**具体方法请参见：本人cyblog的部署文档/另行百度**
+4. 如果你的系统python环境由于缺少库环境启动爬虫失败，或者不想扰乱本地环境，可以为项目搭建虚拟环境。**具体方法请参见：本人cyblog的部署文档/另行百度**  
 
-### 0x3 如何启动
-以下方法任选其一
-- 克隆项目进入项目目录，再进入一层scrapy_vulns目录，能看到start.py
-`python start.py`
-- 或者再进入spider目录使用以下命令
+### 0x3 如何启动  
+以下方法任选其一  
+- 克隆项目进入项目目录，再进入一层scrapy_vulns目录，能看到start.py  
+`python start.py`  
+- 或者再进入spider目录使用以下命令  
 `scrapy crawl src`  
 
 ### 0x4 异常处理  
