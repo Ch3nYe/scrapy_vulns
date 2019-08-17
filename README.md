@@ -1,10 +1,6 @@
 # scrapy_vulns
 > scrapy爬虫框架爬取某漏洞信息公开网漏洞列表  
-
-<p align = "center">
 ![](https://img.shields.io/badge/language-python-yellowgreen.svg?style=flat-square)
-	
-</p>  
 
 ### 0x1 简介
 项目使用python3.7开发
